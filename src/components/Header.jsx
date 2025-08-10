@@ -7,7 +7,7 @@ export default function Header({ showLogin = false, showSign = false, showProduc
 
 
                 <Link to={'/'} className="flex items-center gap-1">
-                    <img src="src/images/bag_13250085.png" alt="Logo" className="w-8 h-8" />
+                    <img src="bag_13250085.png" alt="Logo" className="w-8 h-8" />
                     <h1 className="font-bold text-xl font-serif">-Store</h1>
                 </Link>
 

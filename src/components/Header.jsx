@@ -37,7 +37,7 @@ export default function Header({ showLogin = false, showSign = false, showProduc
                             Sign up
                         </Link>
                     )}
-                    {showCart && (<Link to={'/cart'}><img src="src/images/cart_18450430.png" width={'30px'} /></Link>)}
+                    {showCart && (<Link to={'/cart'}><img src="cart_18450430.png" width={'30px'} /></Link>)}
 
                 </div>
             </div>

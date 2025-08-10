@@ -8,7 +8,7 @@ export default function Landing() {
 
                 <div className="flex items-center justify-between mb-6">
                     <Link to={'/'} className="flex items-center gap-1">
-                        <img src="src/images/bag_13250085.png" alt="Logo" className="w-12 h-12 mb-2" />
+                        <img src="bag_13250085.png" alt="Logo" className="w-12 h-12 mb-2" />
                         <h1 className="font-bold text-3xl font-serif">-Store</h1>
                     </Link>
                     <div className="flex gap-4">
@@ -37,7 +37,7 @@ export default function Landing() {
                 </div>
                 <div>
                     <img
-                        src="src/images/5469621.jpg"
+                        src="5469621.jpg"
                         alt="Landing visual"
                         className="w-[400px] md:w-[600px] rounded-xl"
                     />

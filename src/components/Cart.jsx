@@ -42,7 +42,7 @@ export default function Cart({ cart, setCart }) {
             </ul>
 
             {/* إجمالي السعر */}
-            <div className="mt-6 p-4 bg-yellow-100 rounded-lg text-lg font-bold flex justify-between items-center">
+            <div className="mt-6 p-4 bg-yellow-100 text-black rounded-lg text-lg font-bold flex justify-between items-center">
               <span>Total:</span>
               <span>${totalPrice.toFixed(2)}</span>
             </div>

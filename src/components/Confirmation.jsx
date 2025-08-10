@@ -40,7 +40,7 @@ export default function Confirmation({ cart }) {
           </h2>
           <ul className="divide-y divide-gray-200">
             {cart.map((item, index) => (
-              <li key={index} className="py-3 flex justify-between">
+              <li key={index} className="py-3 flex justify-between text-black">
                 <span>{item.title}</span>
                 <span>${item.price}</span>
               </li>
@@ -64,7 +64,7 @@ export default function Confirmation({ cart }) {
               placeholder="Full Name"
               value={paymentDetails.name}
               onChange={handleChange}
-              className="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full border p-3 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
             />
             <input
               type="text"
@@ -72,7 +72,7 @@ export default function Confirmation({ cart }) {
               placeholder="Card Number"
               value={paymentDetails.cardNumber}
               onChange={handleChange}
-              className="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full border p-3 rounded-lg text-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500"
             />
             <div className="flex gap-4">
               <input
@@ -81,7 +81,7 @@ export default function Confirmation({ cart }) {
                 placeholder="MM/YY"
                 value={paymentDetails.expiry}
                 onChange={handleChange}
-                className="w-1/2 border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-1/2 border p-3 rounded-lg text-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500"
               />
               <input
                 type="text"
@@ -89,7 +89,7 @@ export default function Confirmation({ cart }) {
                 placeholder="CVV"
                 value={paymentDetails.cvv}
                 onChange={handleChange}
-                className="w-1/2 border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-1/2 border p-3 rounded-lg text-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500"
               />
             </div>
           </div>

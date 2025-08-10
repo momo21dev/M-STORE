@@ -47,6 +47,7 @@ export default function Landing() {
                         alt="Landing visual"
                         className="w-[300px] sm:w-[400px] md:w-[600px] rounded-xl"
                     />
+                    
                 </div>
             </div>
         </>

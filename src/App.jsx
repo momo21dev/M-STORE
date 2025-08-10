@@ -7,6 +7,7 @@ import Products from './components/Products'
 import LogIn from './components/LogIn'
 import Cart from './components/Cart'
 import Confirmation from './components/Confirmation'
+import ProductInfo from './components/ProductInfo'
 
 function App() {
   const [cart, setCart] = useState([])
@@ -18,7 +19,8 @@ function App() {
         <Route path='/products' element={<Products cart={cart} setCart={setCart} />} />
         <Route path='/logIn' element={<LogIn />} />
         <Route path='/cart' element={<Cart cart={cart} setCart={setCart} />} />
-        <Route path='/confirmation' element={<Confirmation cart={cart}/>} />
+        <Route path='/confirmation' element={<Confirmation cart={cart} />} />
+        <Route path='/product/:id' element={<ProductInfo/>} />
       </Routes>
     </BrowserRouter>
   )
